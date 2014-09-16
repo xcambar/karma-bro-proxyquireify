@@ -31,6 +31,10 @@ module.exports = function(config) {
       'src/**/*.js': ['browserify']
     },
 
+    browserify: {
+      plugin: ['proxyquireify/plugin']
+    },
+
 
     // test results reporter to use
     // possible values: 'dots', 'progress'
