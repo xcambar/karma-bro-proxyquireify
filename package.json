@@ -1,0 +1,28 @@
+{
+  "name": "karma-bro-proxyquireify",
+  "version": "0.0.0",
+  "description": "A test repo",
+  "main": "index.js",
+  "scripts": {
+    "test": "karma start --single-run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xcambar/karma-bro-proxyquireify"
+  },
+  "author": "Xavier Cambar <xcambar@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xcambar/karma-bro-proxyquireify/issues"
+  },
+  "homepage": "https://github.com/xcambar/karma-bro-proxyquireify",
+  "devDependencies": {
+    "karma-mocha": "~0.1.9",
+    "karma-phantomjs-launcher": "~0.1.4",
+    "chai": "~1.9.1",
+    "karma-chai": "~0.1.0",
+    "karma-bro": "~0.7.0",
+    "browserify": "~5.11.2",
+    "proxyquireify": "~1.0.1"
+  }
+}
