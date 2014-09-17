@@ -1,7 +1,7 @@
 'use strict';
 
 var proxy = require('proxyquireify')(require);
-var mock = {}
+var mock = { nope: 'Nope', yep: 'Yay' };
 
 describe('require', function () {
   it('should preserve the original', function () {
